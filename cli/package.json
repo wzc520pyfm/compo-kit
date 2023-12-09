@@ -1,0 +1,26 @@
+{
+  "name": "@compo-kit/cli",
+  "version": "0.0.1",
+  "description": "An easy way to start a component ui project",
+  "type": "module",
+  "bin": {
+    "create-compo": "outfile.cjs"
+  },
+  "files": [
+    "outfile.cjs"
+  ],
+  "scripts": {
+    "build": "zx ./scripts/build.mjs"
+  },
+  "keywords": [],
+  "author": "wzc520pyfm",
+  "license": "MIT",
+  "engines": {
+    "node": ">=16",
+    "pnpm": ">=7"
+  },
+  "devDependencies": {
+    "esbuild": "^0.17.12",
+    "zx": "^7.2.1"
+  }
+}

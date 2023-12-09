@@ -1,0 +1,7 @@
+packages:
+  - playground
+  - example
+  - 'packages/*'
+  - '!**/test/**'
+  - docs
+  - internal/*

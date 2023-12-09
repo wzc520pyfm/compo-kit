@@ -1,0 +1,30 @@
+{
+  "name": "@compo-kit/monorepo",
+  "version": "0.0.1",
+  "private": true,
+  "description": "Engineering construction component library helper",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "wzc520pyfm",
+  "license": "MIT",
+  "engines": {
+    "node": ">=16",
+    "pnpm": ">=7"
+  },
+  "devDependencies": {
+    "@types/node": "^18.15.3",
+    "@types/prompts": "^2.4.3",
+    "cross-env": "^7.0.3",
+    "eslint": "^8.36.0",
+    "eslint-plugin-import": "^2.27.5",
+    "kolorist": "^1.7.0",
+    "minimist": "^1.2.8",
+    "npm-run-all": "^4.1.5",
+    "prompts": "^2.4.2",
+    "typescript": "^5.0.2",
+    "vitest": "^0.29.3"
+  }
+}

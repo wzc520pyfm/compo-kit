@@ -1,0 +1,21 @@
+{
+  "name": "@compo-kit/eslint-config",
+  "version": "0.0.1",
+  "description": "ESLint Config",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "peerDependencies": {
+    "eslint": "^8.0.0"
+  },
+  "dependencies": {
+    "eslint-define-config": "^1.16.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.36.0"
+  }
+}
